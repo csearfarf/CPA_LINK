@@ -1,9 +1,9 @@
 
-package com.erby.casestudy // name ng library package ay erby.casestudy 
-import android.app.Service // ito ay library package na kapag dineclare or tinawag, lahat ng attributes at classes ay pwede na din matawag at gamitin
-import android.content.Context // ito ay library package na kapag dineclare or tinawag, lahat ng attributes at classes ay pwede na din matawag at gamitin
-import android.net.ConnectivityManager // ito ay library package na kapag dineclare or tinawag, lahat ng attributes at classes ay pwede na din matawag at gamitin
-import android.net.NetworkInfo // ito ay library package na kapag dineclare or tinawag, lahat ng attributes at classes ay pwede na din matawag at gamitin
+package com.erby.casestudy 
+import android.app.Service 
+import android.content.Context 
+import android.net.ConnectivityManager 
+import android.net.NetworkInfo 
 
 class Connection_Detection { // the name of this class is Connection_Detection 
     var context: Context? = null // in this class, nagdeclare tayo ng variable na ang pangalan ay 'context' 
